@@ -4,13 +4,15 @@ Resource      ../../../imports.robot
 
 
 *** Keywords ***
-[LOS][Register User] - Register User - body
+[RISK][Approval] - Approve decision - body
     [Arguments]     ${output}=body    ${remove_null}=${True}   ${remove_empty}=${True}    &{arg_dic}
     ${schema}              catenate     SEPARATOR=
      ...    {
-     ...      "email": "string",
-     ...      "password": "string",
-     ...      "confirmPassword": "string"
+     ...      "loanId": "string",
+     ...      "identityCardNumber": "string",
+     ...      "phoneNumber": "string",
+     ...      "minAge": "int",
+     ...      "maxAge": "int"
      ...    }
     ${body}     generate json
         ...     json_schema=${schema}

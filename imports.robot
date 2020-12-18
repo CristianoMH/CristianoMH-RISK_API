@@ -36,4 +36,4 @@ Resource     ./Test_Datas/Config_Env.robot
 Resource     ./Test_Datas/Status_Code_Datas.robot
 Resource     ./Test_Datas/Error_Code_Datas.robot
 Resource     ./Test_Datas/Error_Messages_Datas.robot
-Resource     ./Test_Datas/RISK_Summary_Datas.robot
+Resource     ./Test_Datas/RISK_Approval_Datas.robot

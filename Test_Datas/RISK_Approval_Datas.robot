@@ -5,8 +5,12 @@ Documentation    Test datas for API Approval
 #Data for approve successfully
 #--------------------------------------------------------------------------------------------
 
-#Valid loan application id
-${summary_loan_app_id_valid_success}    124
+#Valid data in all fields
+${valid_loanId}    Loan_001
+${valid_identityCardNumber}    174818770
+${valid_phoneNumber}    0384110265
+${valid_minAge}    19
+${valid_maxAge}    59
 
 
 #Data for approve unsuccessfully
