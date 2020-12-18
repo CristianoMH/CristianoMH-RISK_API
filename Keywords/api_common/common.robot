@@ -34,6 +34,9 @@
 [common][verify] - status message is "${message}"
     REST.string    $.status.message    ${message}
 
+[common][verify] - status status is "${status}"
+    REST.string    $.status.status    ${status}
+
 [common][verify] - data is null
     REST.null    $.data
 

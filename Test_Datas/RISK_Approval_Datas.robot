@@ -1,6 +1,11 @@
 *** Settings ***
 Documentation    Test datas for API Approval
 *** Variables ***
+#Response body success
+
+${approval_message_success}    Success
+${approval_status_success}    Approval
+
 
 #Data for approve successfully
 #--------------------------------------------------------------------------------------------

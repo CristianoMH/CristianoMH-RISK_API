@@ -21,7 +21,8 @@ Resource      ../../../imports.robot
     rest extract
     [common][verify] - Http status code is "${status_code_200}"
     [common][verify] - status code is "${status_code_200}"
-    [common][verify] - status message is "Success"
+    [common][verify] - status message is "${approval_message_success}"
+    [common][verify] - status status is "${approval_status_success}"
 
 
 # Approve unsuccessfully
